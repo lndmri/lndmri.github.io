@@ -1,2 +1,9 @@
 # lndmri.github.io
-I will  be creating miscellaneous content as to develop my skills 
+
+This is a Number guessing game
+
+# Languages
+It was made using HTML and JavaScript
+
+# Link
+https://lndmri.github.io/
