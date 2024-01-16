@@ -7,7 +7,7 @@ If you employ the right technique, you will be able to find the number in 10 or 
 Have fun!
 
 # Languages
-HTML and JavaScript
+HTML, CSS and JavaScript
 
 # Link
 https://lndmri.github.io/
