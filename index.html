@@ -42,7 +42,7 @@
 
     <script>
 
-      // Your JavaScript goes here
+      // Generate the Random number
       let randomNumber = Math.floor(Math.random() * 100) + 1;
 
       const guesses = document.querySelector('.guesses'); /*Para modificar luego los parrafos dentro del div*/
@@ -61,25 +61,25 @@
       function checkGuess() {
   let userGuess = Number(guessField.value);
   if (guessCount === 1) {
-    guesses.textContent = 'Intentos anteriores: ';
+    guesses.textContent = 'Previous attempts: ';
   }
   guesses.textContent += userGuess + ' ';
 
   if (userGuess === randomNumber) {
-    lastResult.textContent = '¡Felicidades! ¡Lo adivinaste!';
+    lastResult.textContent = '¡Congrats! ¡You guessed it!';
     lastResult.style.backgroundColor = 'green';
     lowOrHi.textContent = '';
     setGameOver();
   } else if (guessCount === 10) {
-    lastResult.textContent = '!!!Fin del juego!!!';
+    lastResult.textContent = '!!!Game Over :(!!!';
     setGameOver();
   } else {
-    lastResult.textContent = '¡Incorrecto!';
+    lastResult.textContent = '¡Incorrect!';
     lastResult.style.backgroundColor = 'red';
     if(userGuess < randomNumber) {
-      lowOrHi.textContent = '¡El número es muy bajo!';
+      lowOrHi.textContent = '¡The number is too low!';
     } else if(userGuess > randomNumber) {
-      lowOrHi.textContent = '¡El número es muy grande!';
+      lowOrHi.textContent = '¡The number is too high!';
     }
   }
 
