@@ -6,6 +6,8 @@ This static webpage implments a Number Guessing Game. You will be provided with 
 If you employ the right technique, you will be able to find the number in 10 or less attempts.
 Have fun!
 
+Hint: Binary Search might be an ally for this game.
+
 # Languages
 HTML, CSS and JavaScript
 
